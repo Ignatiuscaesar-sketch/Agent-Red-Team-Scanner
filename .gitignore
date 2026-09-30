@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+
+# Assistant tooling (kept out of history)
+CLAUDE.md
+.claude/
+AGENTS.md
+
+# Generated reports (keep the committed sample only)
+reports/*.html
+reports/*.json
+!reports/sample-report.md
